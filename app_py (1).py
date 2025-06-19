@@ -61,8 +61,6 @@ with open(app_path, "w") as f:
 
 print("✅ app.py created at:", app_path)
 
-!ngrok config add-authtoken "2ygLGeaxapWfrJZC0rS70Ev35Om_tcQv9zLBuakfsm1AmHrN"
-
 !rm -rf ~/.ngrok2
 
 !ngrok config add-authtoken "2ygLGeaxapWfrJZC0rS70Ev35Om_tcQv9zLBuakfsm1AmHrN"
